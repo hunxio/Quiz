@@ -6,7 +6,7 @@ class Api:
     def __init__(self):
         self.api_url = API_URL
 
-    def request(self):
+    def quiz_request(self):
         response = requests.get(self.api_url)
         if response.status_code == 200:
             data = response.json()
@@ -15,7 +15,6 @@ class Api:
         else:
             return "Service not available right now."
 
-# testing = Api()
-# test = testing.request()
-# for item in test:
-#    print(item)
+
+if __name__ == "__main__":
+    main()
