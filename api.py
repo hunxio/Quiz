@@ -10,9 +10,12 @@ class Api:
         response = requests.get(self.api_url)
         if response.status_code == 200:
             data = response.json()
-            return data
+            quiz_list = data.get("results", [])
+            return quiz_list
         else:
             return "Service not available right now."
 
-# test = Api()
-# print(test.request())
+# testing = Api()
+# test = testing.request()
+# for item in test:
+#    print(item)
