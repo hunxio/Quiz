@@ -1,5 +1,5 @@
 from api import Api
-
+import time
 
 class Question:
 
@@ -18,6 +18,7 @@ class Question:
         print(
             f"Game is over!\nYour final score is: {self.user_score} / {self.question_number}"
         )
+        time.sleep(5)
 
     def check_answer(self, user_answer, correct_answer):
         if user_answer.capitalize() == correct_answer:
