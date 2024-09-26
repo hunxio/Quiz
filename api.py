@@ -1,6 +1,7 @@
 import requests
 from access_tokens import API_URL
 
+
 class Api:
 
     def __init__(self):
