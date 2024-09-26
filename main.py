@@ -12,7 +12,7 @@ def main():
 
 
     initialize_question = Question()
-    test = initialize_question.test(quiz_list)
+    test = initialize_question.game(quiz_list)
     print(test)
 
 
