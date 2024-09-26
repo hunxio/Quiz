@@ -13,3 +13,6 @@ class Api:
             return data
         else:
             return "Service not available right now."
+
+# test = Api()
+# print(test.request())
