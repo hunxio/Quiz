@@ -12,3 +12,6 @@ for item in questions:
 initialize_question = Question()
 test = initialize_question.test(quiz_list)
 print(test)
+
+if __name__ == "__main__":
+    main()
