@@ -21,7 +21,7 @@ Otherwise you can open your terminal and start the game from there, e.g:
 PS C:\Your\Path\Quiz>python .\main.py
 Welcome! Please answer the questions with True or False
 
-Q.1: The character Plum from &quot;No Game No Life&quot; is a girl.
+Q.1: The character Plum from "No Game No Life" is a girl.
 Answer:
 ```
 
