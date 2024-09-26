@@ -25,6 +25,11 @@ Q.1: The character Plum from "No Game No Life" is a girl.
 Answer:
 ```
 
+The folder is missing a file that is needed for the API to work. You can generate your API URL here:
+https://opentdb.com/api_config.php
+Remember to select True / False under "Select Type"
+
+
 ## Scope
 
 I have done this extremely small project to test some new concepts I learnt following 100 Days of Python on Udemy. Since I am not comfortable with OOP I am testing my progress with small projects done during the course but with some small differences here and there. Of course I am not looking at the course hints so that I try my best to solve problems and find a solution. :)
